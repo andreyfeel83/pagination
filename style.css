@@ -4,22 +4,22 @@
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
-	padding: 0 10px;
+	padding: 0 5%;
 }
 
 .tab-wrapper {
 	overflow-x: hidden;
-	max-width: 1000px;
+	max-width: 80vw;
 	background-color: rgb(230, 230, 230);
-	border-radius: 12px;
-	padding: 35px 100px;
+	border-radius: 1em;
+	padding: 2em 5vw;
 	position: relative;
 }
 
 .tab-wrapper .icon {
 	position: absolute;
 	top: 0;
-	width: 100px;
+	width: 8vw;
 	height: 100%;
 	display: flex;
 	align-items: center;
@@ -35,12 +35,12 @@
 }
 
 .icon img {
-	width: 40px;
-	height: 40px;
+	width: 3vw;
+	height: 3vw;
 	border-radius: 50%;
 	cursor: pointer;
-	padding: 10px;
-	margin: 0 15px 0;
+	padding: 0.5em;
+	margin: 0 1vw 0;
 }
 
 .icon img:hover {
@@ -49,7 +49,7 @@
 
 .tab-wrapper .tab-box {
 	display: flex;
-	gap: 12px;
+	gap: 1em;
 	overflow-x: hidden;
 	scroll-behavior: smooth;
 }
@@ -60,10 +60,10 @@
 }
 
 .tab-box .tab {
-	font-size: 18px;
+	font-size: 1rem;
 	white-space: nowrap;
 	background-color: rgb(246, 243, 243);
-	padding: 13px 20px;
+	padding: 0.75em 1em;
 	border-radius: 25px;
 	border: 1px solid rgb(123, 123, 123);
 	cursor: pointer;
@@ -83,11 +83,11 @@
 .content-box {
 	display: flex;
 	overflow-x: hidden;
-	width: 1000px;
+	width: 80vw;
 	border: 1px solid #000;
 	background-color: rgb(255, 255, 255);
-	border-radius: 12px;
-	padding: 35px 100px;
+	border-radius: 1em;
+	padding: 2em 5vw;
 	margin-top: 2px;
 	position: relative;
 }
